@@ -35,33 +35,7 @@ SmartDiab is an advanced machine learning-based web application designed to pred
 
 ## 🧾 Project Structure
 
-SmartDiab/
-│
-├── Dataset/
-├── Images/
-├── myenv/
-│
-├── saved_models/
-│   ├── gradient_boosting.pkl
-│   ├── k-nearest_neighbors.pkl
-│   ├── logistic_regression.pkl
-│   ├── random_forest.pkl
-│   ├── support_vector_machine.pkl
-│   └── xgboost.pkl
-│
-├── static/
-│   └── style.css
-│
-├── templates/
-│   └── index.html
-│
-├── all_models.zip
-│
-├── app.py
-├── best_model.pkl
-├── Diabetes_prediction.ipynb
-├── README.md
-└── requirements.txt
+![Project_structure](https://github.com/user-attachments/assets/a4608ece-1076-48e0-a128-72493160b2e0)
 
 -------------------------------------------------------------------------------------------------------------
 
@@ -91,7 +65,7 @@ http://localhost:5000/
 
 -------------------------------------------------------------------------------------------------------------
 
-## 📋 Usage
+## 📋 **Usage**
 
 - Open the app in a browser.
 - Enter health-related values such as glucose level, insulin, BMI, etc.
@@ -100,7 +74,7 @@ http://localhost:5000/
 
 -------------------------------------------------------------------------------------------------------------
 
-## 📊 Dataset
+## 📊 **Dataset**
 
 The dataset used is the [PIMA Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database), which includes multiple health parameters to identify the risk of diabetes in patients.
 
@@ -117,7 +91,7 @@ Features include:
 
 -------------------------------------------------------------------------------------------------------------
 
-## 🖼️ Screenshots
+## 🖼️ **Screenshots**
 
 ### 🏠 Homepage
 ![Home_page_App](https://github.com/user-attachments/assets/46b85cf7-6f05-4825-852c-120faeffc23b)
@@ -125,7 +99,8 @@ Features include:
 
 -------------------------------------------------------------------------------------------------------------
 
-## 📦 Requirements
+## 📦 **Requirements**
+
 All dependencies are listed in `requirements.txt`:
 
 flask
@@ -138,7 +113,7 @@ joblib
 
 ----------------------------------------------------------------------------------------------------------
 
-## 🤝 Contributing
+## 🤝 **Contributing**
 
 Contributions are welcome! If you find bugs or want to suggest improvements:
 
@@ -150,7 +125,7 @@ Please make sure to update tests as appropriate.
 
 ---------------------------------------------------------------------------------------------------------
 
-## 📄 License
+## 📄 **License**
 
 This project is open source and available under the [MIT License](LICENSE).
 
