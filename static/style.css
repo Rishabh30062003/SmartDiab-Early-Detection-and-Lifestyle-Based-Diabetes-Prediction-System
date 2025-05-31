@@ -1,0 +1,105 @@
+/* style.css */
+
+/* Body styling */
+body {
+  background-color: #f9fafd; /* Very light blue-white background */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container for the form/content */
+.container {
+  background-color: #ffffff; /* Pure white container */
+  max-width: 600px;
+  width: 90%;
+  padding: 40px 50px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  box-sizing: border-box;
+}
+
+/* Heading style */
+h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #007bff; /* Blue accent */
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #555;
+}
+
+/* Input fields */
+input[type="number"],
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 15px;
+  margin-bottom: 20px;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Input focus effect */
+input[type="number"]:focus,
+input[type="text"]:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Submit button */
+button {
+  background-color: #007bff; /* Blue button */
+  color: white;
+  border: none;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Result display */
+.result-box {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: #e9f5ff;
+  border-left: 6px solid #007bff;
+  color: #003d7a;
+  font-weight: 700;
+  font-size: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 25px 20px;
+  }
+
+  button {
+    font-size: 16px;
+  }
+}
