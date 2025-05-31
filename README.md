@@ -65,7 +65,7 @@ http://localhost:5000/
 
 -------------------------------------------------------------------------------------------------------------
 
-## 📋 **Usage**
+__##📋Usage__
 
 - Open the app in a browser.
 - Enter health-related values such as glucose level, insulin, BMI, etc.
