@@ -37,32 +37,31 @@ SmartDiab is an advanced machine learning-based web application designed to pred
 ![Project_structure](https://github.com/user-attachments/assets/a4608ece-1076-48e0-a128-72493160b2e0)
 
 -------------------------------------------------------------------------------------------------------------
-
-## ⚙️ Installation & Setup
+**⚙️ Installation & Setup**
 1. Clone the repository:
-```bash
-git clone https://github.com/Rishabh30062003/SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System.git
-cd SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System
-2. Create and activate virtual environment:
-```bash
-python -m venv myenv
-myenv\Scripts\activate  # For Windows
 
-3.Install dependencies:
-```bash
-pip install -r requirements.txt
+   git clone https://github.com/Rishabh30062003/SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System.git
+   cd SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System
+
+2. Create and activate a virtual environment:
+   python -m venv myenv
+   myenv\Scripts\activate     # For Windows
+   # OR
+   source myenv/bin/activate  # For Linux/macOS
+
+3. Install the required dependencies:
+   pip install -r requirements.txt
 
 4. Run the Flask app:
-```bash
-python app.py
+   python app.py
 
-5. Open in browser:
-```bash
-http://localhost:5000/
+5. Open your browser and navigate to:
+   http://localhost:5000/
+
 
 -------------------------------------------------------------------------------------------------------------
 
-**## 📋Usage**
+## 📋Usage
 
 - Open the app in a browser.
 - Enter health-related values such as glucose level, insulin, BMI, etc.
