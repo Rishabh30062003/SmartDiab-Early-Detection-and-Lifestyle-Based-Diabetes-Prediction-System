@@ -43,7 +43,6 @@ SmartDiab is an advanced machine learning-based web application designed to pred
 ```bash
 git clone https://github.com/Rishabh30062003/SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System.git
 cd SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System
-
 2. Create and activate virtual environment:
 ```bash
 python -m venv myenv
