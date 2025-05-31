@@ -1,5 +1,4 @@
 # SmartDiab: Early Detection and Lifestyle-Based Diabetes Prediction System
-
 SmartDiab is an advanced machine learning-based web application designed to predict the likelihood of diabetes based on user input and lifestyle factors. It provides early detection to help users take preventive health actions and lead a better lifestyle.
 
 ## 🚀 Key Features
@@ -40,7 +39,6 @@ SmartDiab is an advanced machine learning-based web application designed to pred
 -------------------------------------------------------------------------------------------------------------
 
 ## ⚙️ Installation & Setup
-
 1. Clone the repository:
 ```bash
 git clone https://github.com/Rishabh30062003/SmartDiab-Early-Detection-and-Lifestyle-Based-Diabetes-Prediction-System.git
@@ -65,7 +63,7 @@ http://localhost:5000/
 
 -------------------------------------------------------------------------------------------------------------
 
-__##📋Usage__
+**## 📋Usage**
 
 - Open the app in a browser.
 - Enter health-related values such as glucose level, insulin, BMI, etc.
@@ -74,7 +72,7 @@ __##📋Usage__
 
 -------------------------------------------------------------------------------------------------------------
 
-## 📊 **Dataset**
+## 📊 Dataset
 
 The dataset used is the [PIMA Indians Diabetes Dataset](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database), which includes multiple health parameters to identify the risk of diabetes in patients.
 
